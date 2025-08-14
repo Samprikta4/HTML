@@ -1,8 +1,124 @@
-#myheader {
-   background-color: lightblue;
-    color: black;
+/*Navigation*/
+body {
+
+    margin: 0;
+    font-family: Arial;
+}
+
+.topnav {
+
+    overflow: hidden;
+    background-color: #333;
+
+}
+
+.topnav a {
+
+    float: left;
+    color: deeppink;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
 
 
 
+.topnav a:hover {
+
+    background-color: blueviolet;
+    color: skyblue;
+}
+
+.topnav a.active {
+
+    background-color: yellowgreen;
+    color: darkcyan;
+}
+
+/*Slider*/
+
+.carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+
+}
+
+.myslides {
+    display: none;
+    max-height: 100%;
+    max-width: 100%;
+
+
+}
+
+/*Content*/
+
+.pimg3 {
+
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+/*Background Images*/
+
+
+.pimg3 {
+
+
+    background-image: url('image.jpeg');
+    min-height: 400px;
+}
+
+/*section styling*/
+.section {
+    text-align: center;
+    padding: 50px 88px;
+}
+
+.section-light {
+
+    background-color: #f4f4f4;
+    color: #666;
+}
+
+.section-dark {
+    background-color: #28234a;
+    color: #ddd;
+}
+
+/*text over images*/
+
+.ptext {
+
+    position: absolute;
+    top: 50px;
+    width: 100px;
+    text-align: center;
+    color: #eee;
+    font-size: 27px ;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.ptext .border {
+
+background-color: #111;
+color:#fff;
+padding: 20px;
+}
+
+
+.ptext .border.trans {
+
+background-color: transparent;
+color: hotpink;
 
 }
